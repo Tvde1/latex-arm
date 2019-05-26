@@ -1,4 +1,4 @@
-FROM resin/armv7hf-debian:latest
+FROM raspbian/stretch
 
 RUN [ "cross-build-start" ]
 

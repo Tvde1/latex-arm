@@ -1,4 +1,6 @@
 FROM balenalib/rpi-raspbian:latest
 
-RUN sudo apt update && \
-  sudo apt install -y texlive-full
+RUN [ "cross-build-start" ]
+
+RUN apt update && \
+  apt install -y texlive-full

@@ -1,5 +1,4 @@
-FROM raspbian/stretch
+FROM armv7/armhf-ubuntu:latest
 
 USER root
-RUN apt update
-RUN apt install -y texlive-full
+RUN apt update && apt install -y texlive-full

@@ -1,4 +1,4 @@
-FROM balenalib/rpi-raspbian:latest
+FROM resin/armv7hf-debian:latest
 
 RUN [ "cross-build-start" ]
 

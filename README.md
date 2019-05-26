@@ -6,5 +6,5 @@ This docker image just has `texlive-full` installed. It has no entry point, so y
 Example usage:
 
 ```
-docker run -v /my/latex/folder:/source -w /source tvde1/rpi-latex:latest pdftex \relax test\bye
+docker run -v /my/latex/folder:/source -w /source tvde1/latex-arm:latest pdflatex myfile.tex
 ```

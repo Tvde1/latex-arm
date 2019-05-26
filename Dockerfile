@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu:latest
+FROM balenalib/rpi-raspbian:latest
 
 RUN sudo apt update && \
   sudo apt install -y texlive-full
